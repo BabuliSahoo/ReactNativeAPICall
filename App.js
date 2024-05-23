@@ -1,12 +1,13 @@
 // App.js
-import React from 'react';
-import { SafeAreaView, StyleSheet } from 'react-native';
-import HttpExample from './components/HttpExample';
+import React from "react";
+import { SafeAreaView, StyleSheet } from "react-native";
+import HttpExample from "./components/HttpExample";
+import HttpFlatList from "./components/HttpFlatList";
 
 const App = () => {
   return (
     <SafeAreaView style={styles.container}>
-      <HttpExample />
+      <HttpFlatList />
     </SafeAreaView>
   );
 };
